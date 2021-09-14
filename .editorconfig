@@ -77,7 +77,7 @@ ij_kotlin_name_count_to_use_star_import = 2147483647
 ij_kotlin_name_count_to_use_star_import_for_members = 2147483647
 # 자동 static import 설정
 #ij_kotlin_packages_to_use_import_on_demand =
-ij_kotlin_imports_layout = *, kotlin.*, java.*, javax.*, org.*, io.github.chanhyeong.*, ^"
+ij_kotlin_imports_layout = *, kotlin.**, java.**, javax.**, org.**, io.github.chanhyeong.**, ^"
 ij_kotlin_parameter_annotation_wrap = off
 ij_kotlin_space_after_comma = true
 ij_kotlin_space_after_extend_colon = true
@@ -106,7 +106,7 @@ ij_kotlin_wrap_elvis_expressions = 1
 ij_kotlin_wrap_expression_body_functions = 1
 ij_kotlin_wrap_first_method_in_call_chain = false
 # noinspection EditorConfigKeyCorrectness
-disabled_rules = imports_layout, indent_size
+disabled_rules = import-ordering
 
 [**/sql/*.kt]
 max_line_length = 1000
